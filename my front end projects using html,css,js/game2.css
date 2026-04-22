@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body{
+    background-color: #ffe4c4;
+}
+
+h1{
+    color: rgb(238, 241, 244);
+    background-color: black;
+    padding: 1rem;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+
+.choices{
+   
+   display: flex;
+   justify-content: center;
+   margin-top: 5rem;
+   gap: 2rem;
+   /* background-color: black; */
+   padding: 1rem;
+   margin-left: 300px;
+   margin-right: 300px;
+   border-radius: 50px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    font-size: xx-large;
+   
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 5rem;
+    /* background-color: black; */
+    color: rgb(7, 7, 7);
+    padding: 1rem;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
+    font-size: xx-large;
+}
+
+img:hover{
+    opacity: 0.5;
+    border: solid  rgba(5, 5, 5, 0.912);
+}
+
+.playmsg{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 5rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+    font-size: xx-large;
+}
+
+.buttons1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+    font-size: xx-large;
+    
+}
